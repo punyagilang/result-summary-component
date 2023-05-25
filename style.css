@@ -1,0 +1,142 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Hanken Grotesk', sans-serif;
+      font-family: 'Outfit', sans-serif;
+    }
+    .resultContainer {
+      background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+      text-align: center;
+      width: 380px;
+      height: 500px;
+      color: hsl(221, 100%, 96%);
+      border-radius: 5%;
+      position: absolute;
+      margin-right: 350px;
+    }
+    .summaryContainer {
+      background-image: white;
+      box-shadow: 2px 3px 9px -2px rgba(0,0,0,0.75);
+      border-radius: 5%;
+      text-align: center;
+      width: 380px;
+      height: 500px;
+      margin-left: 350px;
+    }
+    .summaryContainer h2 {
+      text-align: left;
+      padding: 30px 60px 30px 75px;
+    }
+    .reaction {
+      padding: 10px 25px 10px 25px;
+      background-color: hsl(0, 19%, 92%);
+      color: hsl(0, 100%, 67%);
+      border-radius: 5px;
+      width: 180px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Memory {
+      padding: 10px 25px 10px 25px;
+      background-color: hsl(60, 24%, 89%);
+      color: hsl(39, 100%, 56%);
+      border-radius: 5px;
+      width: 180px;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Verbal {
+      padding: 10px 25px 10px 25px;
+      background-color: hsl(166, 32%, 87%);
+      color: hsl(166, 100%, 37%);
+      border-radius: 5px;
+      width: 180px;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Visual {
+      padding: 10px 25px 10px 25px;
+      background-color: hsl(237, 39%, 89%);
+      color: hsl(234, 85%, 45%);
+      border-radius: 5px;
+      width: 180px;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+    }
+    .continueButton {
+      width: 230px;
+      height: 35px;
+      border-radius: 360px;
+      background-color: hsl(224, 30%, 27%);
+      color: white;
+    }
+    .resultContainer h2 {
+      padding: 40px 25px 40px 25px;
+    }
+    .resultContainer h3 {
+      font-size: 40px;
+    }
+    .resultContainer h4, p {
+      padding: 5px 40px 20px 40px;
+    }
+    .resultContainer h4 {
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 30px;
+    }
+    .resultContainer p {
+      font-size: 18px;
+    }
+    .rounded {
+      background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+      padding: 50px 45px 50px 45px;
+      margin: auto;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .rounded p {
+      padding-top: 5px;
+    }
+    .attribution {
+      padding-top: 100px;
+    }
+    @media screen and (max-width: 375px) {
+      .resultContainer {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 570px;
+      }
+      .resultContainer h2 {
+      padding: 110px 25px 30px 25px;
+      }
+      .resultContainer h3 {
+      font-size: 40px;
+      }
+      .resultContainer h4 {
+      font-size: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      }
+      .summaryContainer {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 400px;
+      }
+      .attribution {
+        padding-top: 30px;
+      }
+     }
